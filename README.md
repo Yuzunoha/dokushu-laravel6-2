@@ -46,7 +46,7 @@
 
 - http://localhost:10581 にアクセスする
 
-## make コマンドの解説(Makefile 参照)
+## make コマンドの紹介(Makefile 参照)
 
 - make up
 
@@ -70,4 +70,4 @@
 
 - make init
 
-  - docker コンテナのビルドや設定、起動を行う
+  - docker コンテナのビルドと設定、起動を行う
