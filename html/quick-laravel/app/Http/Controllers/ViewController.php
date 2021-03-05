@@ -23,4 +23,9 @@ class ViewController extends Controller
     {
         return view('view.master', ['msg' => 'こんにちは、世界！']);
     }
+
+    public function comp()
+    {
+        return view('view.comp');
+    }
 }
