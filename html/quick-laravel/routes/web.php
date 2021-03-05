@@ -21,3 +21,4 @@ Route::get('hello/list', 'HelloController@list');
 
 Route::get('view/if', 'ViewController@if');
 Route::get('view/switch', 'ViewController@switch');
+Route::get('view/master', 'ViewController@master');

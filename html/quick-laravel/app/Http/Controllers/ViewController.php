@@ -18,4 +18,9 @@ class ViewController extends Controller
         $num = random_int(1, 5);
         return view('view.switch', ['num' => $num]);
     }
+
+    public function master()
+    {
+        return view('view.master', ['msg' => 'こんにちは、世界！']);
+    }
 }
