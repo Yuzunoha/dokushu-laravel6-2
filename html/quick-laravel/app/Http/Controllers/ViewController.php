@@ -9,6 +9,7 @@ class ViewController extends Controller
 {
     public function if()
     {
-        return view('view.if', ['random' => 51]);
+        $random = random_int(0, 100);
+        return view('view.if', ['random' => $random]);
     }
 }
