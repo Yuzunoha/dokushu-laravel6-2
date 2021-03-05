@@ -12,4 +12,9 @@ class ViewController extends Controller
         $random = random_int(0, 100);
         return view('view.if', ['random' => $random]);
     }
+
+    public function switch()
+    {
+        return view('view.switch', ['msg' => 'aaa']);
+    }
 }
