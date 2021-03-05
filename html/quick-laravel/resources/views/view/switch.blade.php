@@ -1,2 +1,2 @@
 switchswitchswitch
-{{ $msg }}
+{{ $num }}
